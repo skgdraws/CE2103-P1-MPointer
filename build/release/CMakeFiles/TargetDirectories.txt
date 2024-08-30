@@ -1,0 +1,3 @@
+/home/skg/CLionProjects/Proyecto I - Datos II/build/release/CMakeFiles/Proyecto_I___Datos_II.dir
+/home/skg/CLionProjects/Proyecto I - Datos II/build/release/CMakeFiles/edit_cache.dir
+/home/skg/CLionProjects/Proyecto I - Datos II/build/release/CMakeFiles/rebuild_cache.dir
