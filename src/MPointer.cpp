@@ -16,14 +16,22 @@
     ╚═════╝░╚══════╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░╚═════╝░░╚════╝░░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝
  */
 
-// TODO: Add all the logic regarding the Garbage collector
 template<class T>
 MPointer<T> MPointer<T>::New() {
 
+    // Allocating memory for the pointer itself
+    ptr = new T;
+
+    // TODO: Sending reference to Garbage Collector
+
+    // Sending the reference to the class back to the variable
+    return this;
 }
 
 template<class T>
 MPointer<T>::~MPointer() {
+
+    // TODO: Deleting reference from Garbage Collector
     delete (ptr);
 }
 
@@ -45,6 +53,14 @@ T &MPointer<T>::operator*() {
 template<class T>
 T *MPointer<T>::operator->() {
     return ptr;
+}
+
+template<class T>
+MPointer<T> & MPointer<T>::operator=(T) {
+}
+
+template<class T>
+MPointer<T> & MPointer<T>::operator=(const MPointer &p) {
 }
 
 

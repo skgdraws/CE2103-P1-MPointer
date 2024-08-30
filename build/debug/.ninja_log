@@ -1,8 +1,7 @@
 # ninja log v6
-1	333	1724547708946746622	CMakeFiles/Proyecto_I___Datos_II.dir/src/MPointer.cpp.o	dd47ba2f088e33b8
-333	340	1724547709278747467	libProyecto_I___Datos_II.a	62960fa031c9dbf5
-1	345	1724546836357079495	CMakeFiles/Proyecto_I___Datos_II.dir/main.cpp.o	e0bd5d8ddd0dae46
-0	16	1724986363722599350	build.ninja	bb7592bb784ebbcb
-1	332	1724547708946746622	CMakeFiles/Proyecto_I___Datos_II.dir/src/MPointerGB.cpp.o	de3f36bcba8005e3
 0	336	1724547218531545258	CMakeFiles/Proyecto_I___Datos_II.dir/src/main.cpp.o	794375a16a95089d
-226	534	1724986363722599350	build.ninja	bb7592bb784ebbcb
+1	995	1724986967984211535	CMakeFiles/Proyecto_I___Datos_II.dir/src/MPointerGB.cpp.o	de3f36bcba8005e3
+0	17	1724988227944856930	build.ninja	bb7592bb784ebbcb
+1	345	1724546836357079495	CMakeFiles/Proyecto_I___Datos_II.dir/main.cpp.o	e0bd5d8ddd0dae46
+995	1077	1724986968978212597	libProyecto_I___Datos_II.a	62960fa031c9dbf5
+1	758	1724986967984211535	CMakeFiles/Proyecto_I___Datos_II.dir/src/MPointer.cpp.o	dd47ba2f088e33b8

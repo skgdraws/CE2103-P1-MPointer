@@ -67,6 +67,18 @@ build CMakeFiles/Proyecto_I___Datos_II.dir/src/MPointer.cpp.o: CXX_COMPILER__Pro
   OBJECT_DIR = CMakeFiles/Proyecto_I___Datos_II.dir
   OBJECT_FILE_DIR = CMakeFiles/Proyecto_I___Datos_II.dir/src
 
+build CMakeFiles/Proyecto_I___Datos_II.dir/src/Nodo.cpp.o: CXX_COMPILER__Proyecto_I___Datos_II_unscanned_Debug /home/skg/CLionProjects/Proyecto$ I$ -$ Datos$ II/src/Nodo.cpp || cmake_object_order_depends_target_Proyecto_I___Datos_II
+  DEP_FILE = CMakeFiles/Proyecto_I___Datos_II.dir/src/Nodo.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Proyecto_I___Datos_II.dir
+  OBJECT_FILE_DIR = CMakeFiles/Proyecto_I___Datos_II.dir/src
+
+build CMakeFiles/Proyecto_I___Datos_II.dir/src/Lista.cpp.o: CXX_COMPILER__Proyecto_I___Datos_II_unscanned_Debug /home/skg/CLionProjects/Proyecto$ I$ -$ Datos$ II/src/Lista.cpp || cmake_object_order_depends_target_Proyecto_I___Datos_II
+  DEP_FILE = CMakeFiles/Proyecto_I___Datos_II.dir/src/Lista.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Proyecto_I___Datos_II.dir
+  OBJECT_FILE_DIR = CMakeFiles/Proyecto_I___Datos_II.dir/src
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target Proyecto_I___Datos_II
@@ -75,7 +87,7 @@ build CMakeFiles/Proyecto_I___Datos_II.dir/src/MPointer.cpp.o: CXX_COMPILER__Pro
 #############################################
 # Link the static library libProyecto_I___Datos_II.a
 
-build libProyecto_I___Datos_II.a: CXX_STATIC_LIBRARY_LINKER__Proyecto_I___Datos_II_Debug CMakeFiles/Proyecto_I___Datos_II.dir/src/main.cpp.o CMakeFiles/Proyecto_I___Datos_II.dir/src/MPointerGB.cpp.o CMakeFiles/Proyecto_I___Datos_II.dir/src/MPointer.cpp.o
+build libProyecto_I___Datos_II.a: CXX_STATIC_LIBRARY_LINKER__Proyecto_I___Datos_II_Debug CMakeFiles/Proyecto_I___Datos_II.dir/src/main.cpp.o CMakeFiles/Proyecto_I___Datos_II.dir/src/MPointerGB.cpp.o CMakeFiles/Proyecto_I___Datos_II.dir/src/MPointer.cpp.o CMakeFiles/Proyecto_I___Datos_II.dir/src/Nodo.cpp.o CMakeFiles/Proyecto_I___Datos_II.dir/src/Lista.cpp.o
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/Proyecto_I___Datos_II.dir
   POST_BUILD = :

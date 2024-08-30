@@ -9,13 +9,13 @@ template<class T>
 class MPointer {
 
     private:
+
         T* ptr;
 
     public:
-        // Constructor
-        MPointer New();
 
-        // Destructor
+        // Constructor and Destructor
+        MPointer New();
         ~MPointer();
 
         // Overloading dereferencing operator
@@ -25,8 +25,8 @@ class MPointer {
         T* operator->();
 
         // Overloading the assignment constructor
-        MPointer& operator=(const MPointer& p);
         MPointer& operator=(T);
+        MPointer& operator=(const MPointer& p);
 };
 
 #endif //MPOINTER_H
