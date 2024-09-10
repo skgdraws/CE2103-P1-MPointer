@@ -1,0 +1,17 @@
+# ninja log v6
+1	19	1726008432989053221	build.ninja	aaf5eb5b729b70a4
+1	380	1726003871317178974	/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir/src/MPointer.cpp.o	31765a1b819e53a8
+1	390	1726005801751482268	CMakeFiles/MPointer_Test.dir/main.cpp.o	952f152c3c5248ba
+0	392	1726003871316178970	/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir/src/MPointerGB.cpp.o	e030db24756042c6
+397	406	1726005390804986125	/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/libMPointer_Library.a	42737e88f559127d
+1	377	1726003989723703047	/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir/MPointerGB.cpp.o	a3025fe462836f26
+0	397	1726005390407984679	/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir/MPointer.cpp.o	7b3c6428bbd9c0b4
+375	420	1726004172882456920	MPointer_Test	f7d9eefe4193e01f
+1	440	1726008458240139857	/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir/MPointerGC.cpp.o	57c0a79767fe5e25
+440	465	1726008458679141363	/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/libMPointer_Library.a	21d6c34966791e06
+1	408	1726008536574408621	/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir/MPointer.cpp.o	7b3c6428bbd9c0b4
+408	486	1726008536981410017	/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/libMPointer_Library.a	21d6c34966791e06
+1	597	1726008556745477826	CMakeFiles/MPointer_Test.dir/main.cpp.o	952f152c3c5248ba
+1	390	1726008634867745861	/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir/MPointer.cpp.o	7b3c6428bbd9c0b4
+1	501	1726008634867745861	/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir/MPointerGC.cpp.o	57c0a79767fe5e25
+501	508	1726008635368747580	/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/libMPointer_Library.a	21d6c34966791e06

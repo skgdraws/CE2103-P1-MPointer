@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug",
+		"source" : "/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer"
+	}
+}
