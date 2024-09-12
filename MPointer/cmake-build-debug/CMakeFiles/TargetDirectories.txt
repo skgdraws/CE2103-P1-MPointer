@@ -1,0 +1,3 @@
+/home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer/cmake-build-debug/CMakeFiles/MPointer.dir
+/home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

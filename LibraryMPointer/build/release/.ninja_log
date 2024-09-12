@@ -1,4 +1,0 @@
-# ninja log v6
-1	454	1726008823008391366	CMakeFiles/MPointer_Library.dir/MPointer.cpp.o	bfaedce7da7636cc
-1	466	1726008823008391366	CMakeFiles/MPointer_Library.dir/MPointerGC.cpp.o	54bcf65989f13908
-466	513	1726008823473392961	libMPointer_Library.a	e93c594817e79c2a

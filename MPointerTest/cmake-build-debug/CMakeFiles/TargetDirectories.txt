@@ -1,6 +1,0 @@
-/home/skg/CLionProjects/Proyecto I - Datos II/MPointer Test/cmake-build-debug/CMakeFiles/MPointer_Test.dir
-/home/skg/CLionProjects/Proyecto I - Datos II/MPointer Test/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/skg/CLionProjects/Proyecto I - Datos II/MPointer Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir
-/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/edit_cache.dir
-/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/rebuild_cache.dir

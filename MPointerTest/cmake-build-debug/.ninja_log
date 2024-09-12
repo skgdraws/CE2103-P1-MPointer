@@ -1,7 +1,0 @@
-# ninja log v6
-1	19	1726010449289560838	build.ninja	aaf5eb5b729b70a4
-1	501	1726008634867745861	/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir/MPointerGC.cpp.o	57c0a79767fe5e25
-1	597	1726008556745477826	CMakeFiles/MPointer_Test.dir/main.cpp.o	952f152c3c5248ba
-501	508	1726008635368747580	/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/libMPointer_Library.a	21d6c34966791e06
-1	390	1726008634867745861	/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir/MPointer.cpp.o	7b3c6428bbd9c0b4
-375	420	1726004172882456920	MPointer_Test	f7d9eefe4193e01f

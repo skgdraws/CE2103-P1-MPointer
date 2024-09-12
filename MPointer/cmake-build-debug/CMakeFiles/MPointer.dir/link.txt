@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMPointer.a CMakeFiles/MPointer.dir/MPointerGC.cpp.o CMakeFiles/MPointer.dir/DataStructures/Node.cpp.o CMakeFiles/MPointer.dir/DataStructures/LinkedList.cpp.o
+/usr/bin/ranlib libMPointer.a

@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/MPointer_Test.dir/main.cpp.o -o MPointer_Test  "/home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer Test/Library MPointer/build/debug/libMPointer_Library.a"
