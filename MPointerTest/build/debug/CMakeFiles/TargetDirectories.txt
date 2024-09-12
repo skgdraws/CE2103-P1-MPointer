@@ -1,0 +1,6 @@
+/home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer Test/build/debug/CMakeFiles/MPointer_Test.dir
+/home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer Test/build/debug/CMakeFiles/edit_cache.dir
+/home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer Test/build/debug/CMakeFiles/rebuild_cache.dir
+/home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer Test/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir
+/home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer Test/Library MPointer/build/debug/CMakeFiles/edit_cache.dir
+/home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer Test/Library MPointer/build/debug/CMakeFiles/rebuild_cache.dir

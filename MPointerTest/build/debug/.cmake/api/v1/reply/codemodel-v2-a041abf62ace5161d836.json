@@ -1,0 +1,102 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "/home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer Test/Library MPointer/build/debug",
+					"jsonFile" : "directory-Debug-d00db72225bd6d8a28ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/skg/Documents/GitHub/CE2103-P1-MPointer/Library MPointer",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MPointer_Test",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "MPointer_Library",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "MPointer_Library::@618ecba4ec24b248868d",
+					"jsonFile" : "target-MPointer_Library-Debug-f24d7093ac682b54c2a2.json",
+					"name" : "MPointer_Library",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MPointer_Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MPointer_Test-Debug-dd5c4a2b308acf8d068c.json",
+					"name" : "MPointer_Test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer Test/build/debug",
+		"source" : "/home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer Test"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

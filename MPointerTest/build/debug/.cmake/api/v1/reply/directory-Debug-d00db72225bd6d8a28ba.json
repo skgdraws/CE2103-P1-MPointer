@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "/home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer Test/Library MPointer/build/debug",
+		"source" : "/home/skg/Documents/GitHub/CE2103-P1-MPointer/Library MPointer"
+	}
+}
