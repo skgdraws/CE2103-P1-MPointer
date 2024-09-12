@@ -6,12 +6,16 @@ class Nodo {
 
 public:
 
-    int data;
+    int ID;
+    int instances = 0;
     Nodo* next;
 
     Nodo(int data);
 
-    int get_data();
+    int get_ID();
+
+    int get_instances();
+    void set_instances(int data);
 
 };
 

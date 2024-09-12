@@ -4,6 +4,7 @@
 // Libraries and such
 #include <iostream> // Debug Prints
 #include <mutex>
+#include "Lista.h"
 
 // The class itself
 class MPointerGC {
@@ -15,6 +16,7 @@ class MPointerGC {
         static MPointerGC *instance;
 
         // Linked List with IDs
+        Lista pointerList;
 
         // Constructor and copy constructor cannot be accessed
         MPointerGC();

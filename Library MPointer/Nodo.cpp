@@ -1,12 +1,19 @@
 #include "Nodo.h"
 
-Nodo::Nodo(int data){
+Nodo::Nodo(int ID){
 
-    this -> data = data;
+    this -> ID = ID;
     this -> next = nullptr;
 }
 
-int Nodo::get_data(){
+int Nodo::get_ID(){
+    return ID;
+}
 
-    return data;
+int Nodo::get_instances() {
+    return instances;
+}
+
+void Nodo::set_instances(int data) {
+    instances = data;
 }

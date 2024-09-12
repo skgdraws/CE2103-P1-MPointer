@@ -10,7 +10,7 @@ void Lista::insertNode(int data, Nodo* memoryDir){
     *memoryDir = *new Nodo(data);
     memoryDir->next = head;
     head = memoryDir;
-    std::cout << "Inserted element: " << memoryDir->get_data() << 'in ' << memoryDir << std::endl;
+    std::cout << "Inserted element: " << memoryDir->get_ID() << 'in ' << memoryDir << std::endl;
 }
 
 Nodo* Lista::deleteNode(int n){
@@ -20,7 +20,7 @@ Nodo* Lista::deleteNode(int n){
 
     while(temp != NULL){
 
-        if(temp->data == n){
+        if(temp->ID == n){
 
             if(temp == head){
 
@@ -47,7 +47,8 @@ void Lista::printList(){
     std::cout<< "\nLinked List: ";
 
     while(node != NULL) {
-        std::cout << node->data << " "; node = node->next;
+        std::cout << "Dir ID: " << node->ID << ", Instances: " << node->get_instances() << " ";
+        node = node->next;
     }
     std::cout << std::endl;
 }

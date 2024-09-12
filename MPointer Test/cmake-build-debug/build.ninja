@@ -122,6 +122,18 @@ build /home/skg/CLionProjects/Proyecto$ I$ -$ Datos$ II/Library$ MPointer/build/
   OBJECT_DIR = "/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir"
   OBJECT_FILE_DIR = "/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir"
 
+build /home/skg/CLionProjects/Proyecto$ I$ -$ Datos$ II/Library$ MPointer/build/debug/CMakeFiles/MPointer_Library.dir/Nodo.cpp.o: CXX_COMPILER__MPointer_Library_unscanned_Debug /home/skg/CLionProjects/Proyecto$ I$ -$ Datos$ II/Library$ MPointer/Nodo.cpp || cmake_object_order_depends_target_MPointer_Library
+  DEP_FILE = "/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir/Nodo.cpp.o.d"
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = "/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir"
+  OBJECT_FILE_DIR = "/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir"
+
+build /home/skg/CLionProjects/Proyecto$ I$ -$ Datos$ II/Library$ MPointer/build/debug/CMakeFiles/MPointer_Library.dir/Lista.cpp.o: CXX_COMPILER__MPointer_Library_unscanned_Debug /home/skg/CLionProjects/Proyecto$ I$ -$ Datos$ II/Library$ MPointer/Lista.cpp || cmake_object_order_depends_target_MPointer_Library
+  DEP_FILE = "/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir/Lista.cpp.o.d"
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = "/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir"
+  OBJECT_FILE_DIR = "/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir"
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target MPointer_Library
@@ -130,7 +142,7 @@ build /home/skg/CLionProjects/Proyecto$ I$ -$ Datos$ II/Library$ MPointer/build/
 #############################################
 # Link the static library /home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/libMPointer_Library.a
 
-build /home/skg/CLionProjects/Proyecto$ I$ -$ Datos$ II/Library$ MPointer/build/debug/libMPointer_Library.a: CXX_STATIC_LIBRARY_LINKER__MPointer_Library_Debug /home/skg/CLionProjects/Proyecto$ I$ -$ Datos$ II/Library$ MPointer/build/debug/CMakeFiles/MPointer_Library.dir/MPointerGC.cpp.o /home/skg/CLionProjects/Proyecto$ I$ -$ Datos$ II/Library$ MPointer/build/debug/CMakeFiles/MPointer_Library.dir/MPointer.cpp.o
+build /home/skg/CLionProjects/Proyecto$ I$ -$ Datos$ II/Library$ MPointer/build/debug/libMPointer_Library.a: CXX_STATIC_LIBRARY_LINKER__MPointer_Library_Debug /home/skg/CLionProjects/Proyecto$ I$ -$ Datos$ II/Library$ MPointer/build/debug/CMakeFiles/MPointer_Library.dir/MPointerGC.cpp.o /home/skg/CLionProjects/Proyecto$ I$ -$ Datos$ II/Library$ MPointer/build/debug/CMakeFiles/MPointer_Library.dir/MPointer.cpp.o /home/skg/CLionProjects/Proyecto$ I$ -$ Datos$ II/Library$ MPointer/build/debug/CMakeFiles/MPointer_Library.dir/Nodo.cpp.o /home/skg/CLionProjects/Proyecto$ I$ -$ Datos$ II/Library$ MPointer/build/debug/CMakeFiles/MPointer_Library.dir/Lista.cpp.o
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = "/home/skg/CLionProjects/Proyecto I - Datos II/Library MPointer/build/debug/CMakeFiles/MPointer_Library.dir"
   POST_BUILD = :
