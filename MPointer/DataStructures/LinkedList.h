@@ -4,8 +4,9 @@
 #include <iostream>
 #include "Node.h"
 
-class LinkedList {
 
+class LinkedList
+{
 public:
 
     Node* head;
@@ -13,9 +14,11 @@ public:
 
     LinkedList();
 
-    void insertNode(int data, Node* memoryDir);
+    void insertNode(int id, void* memoryDir);
     Node* deleteNode(int n);
 
+    Node* getNode(int id);
+    Node* search(int n);
     void printList();
 };
 

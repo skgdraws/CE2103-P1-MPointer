@@ -11,8 +11,8 @@ set(SOURCE_FILES
 )
 set(DATA_STRUCTURES
         DataStructures/Node.h
-        DataStructures/Node.cpp
         DataStructures/LinkedList.h
+        DataStructures/Node.cpp
         DataStructures/LinkedList.cpp
 )
 

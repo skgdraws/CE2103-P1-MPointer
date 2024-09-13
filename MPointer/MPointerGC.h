@@ -4,6 +4,7 @@
 // Libraries and such
 #include <iostream> // Debug Prints
 #include <mutex>
+#include <ctime>
 #include "DataStructures/LinkedList.h"
 
 // The class itself
@@ -23,7 +24,7 @@ class MPointerGC {
         MPointerGC(const MPointerGC &) = delete;
 
         // Cannot copy assignment
-        MPointerGC &operator=(const MPointerGC &);
+        MPointerGC &operator=(const MPointerGC &) = delete;
 
     public:
 
@@ -41,10 +42,12 @@ class MPointerGC {
             return instance;
         }
 
-        // Adding and Deleting pointer instances
-        int add_new_pointer(void* id);
-        void increase_pointer_ref(int id);
-        void decrease_pointer_ref(int id);
+    // Adding and Deleting pointer instances
+        template <class T>
+        int addNewPointer(T* ptr);
+
+        void increasePointerRef(int id);
+        void decreasePointerRef(int id);
 
         // Debug Print
         void debug();

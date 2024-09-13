@@ -14,10 +14,10 @@ class MPointer {
         T* ptr;
         int id;
 
-        MPointer() : ptr(new T) {
+        MPointer(){
 
             // Creating the Garbage collector item
-            id = MPointerGC::getInstance()->add_new_pointer(this->ptr);
+            id = MPointerGC::getInstance()->addNewPointer(this->ptr);
 
             std::cout << "MPointer ID assigned:" << id << std::endl;
         }
@@ -31,14 +31,14 @@ class MPointer {
             this->ptr = p.ptr;
             this->id = p.id;
 
-            MPointerGC::getInstance()->increase_pointer_ref(this->id);
+            MPointerGC::getInstance()->increasePointerRef(this->id);
             std::cout << "MPointer ID assigned:" << id << std::endl;
         }
 
         // Destructor
         ~MPointer() {
 
-            MPointerGC::getInstance()->decrease_pointer_ref(this->id);
+            MPointerGC::getInstance()->decreasePointerRef(this->id);
             std::cout << "MPointer reference removed with ID:" << this->id << std::endl;
         }
 
@@ -74,13 +74,13 @@ class MPointer {
         MPointer<T>& operator=(const MPointer& p)
         {
             if (this != &p){
-                MPointerGC::getInstance()->decrease_pointer_ref(this->id);
+                MPointerGC::getInstance()->decreasePointerRef(this->id);
 
                 this->ptr = p.ptr;
                 this->id = p.id;
 
                 std::cout << "MPointer assigned with ID:" << this->id << std::endl;
-                MPointerGC::getInstance()->increase_pointer_ref(this->id);
+                MPointerGC::getInstance()->increasePointerRef(this->id);
             }
 
             return *this;

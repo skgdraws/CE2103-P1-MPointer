@@ -7,15 +7,17 @@ class Node {
 public:
 
     int ID;
+    void* memoryDir;
     int instances = 0;
     Node* next;
 
-    Node(int data);
+    Node(int ID);
 
-    int get_ID();
+    int getID();
 
-    int get_instances();
-    void set_instances(int data);
+    int addInstance();
+    int removeInstance();
+    int getInstances();
 
 };
 

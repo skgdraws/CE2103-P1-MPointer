@@ -3,7 +3,10 @@ project(Test)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Test main.cpp)
+add_executable(Test main.cpp
+        Sorter.cpp
+        Sorter.h
+)
 
 target_link_libraries(Test PRIVATE "${CMAKE_SOURCE_DIR}/../MPointer/cmake-build-debug/libMPointer.a")
 target_include_directories(Test PRIVATE ../MPointer)

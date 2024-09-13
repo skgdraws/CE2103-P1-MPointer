@@ -195,9 +195,9 @@ CMakeFiles/MPointer.dir/DataStructures/Node.cpp.o: /home/skg/Documents/GitHub/CE
   /usr/include/stdc-predef.h
 
 CMakeFiles/MPointer.dir/MPointerGC.cpp.o: /home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer/MPointerGC.cpp \
-  /home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer/Lista.h \
+  /home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer/DataStructures/LinkedList.h \
+  /home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer/DataStructures/Node.h \
   /home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer/MPointerGC.h \
-  /home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer/Nodo.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -247,15 +247,12 @@ CMakeFiles/MPointer.dir/MPointerGC.cpp.o: /home/skg/Documents/GitHub/CE2103-P1-M
   /usr/include/c++/13.2.0/bits/std_abs.h \
   /usr/include/c++/13.2.0/bits/std_mutex.h \
   /usr/include/c++/13.2.0/bits/stl_algobase.h \
-  /usr/include/c++/13.2.0/bits/stl_bvector.h \
   /usr/include/c++/13.2.0/bits/stl_construct.h \
   /usr/include/c++/13.2.0/bits/stl_function.h \
   /usr/include/c++/13.2.0/bits/stl_iterator.h \
   /usr/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13.2.0/bits/stl_iterator_base_types.h \
   /usr/include/c++/13.2.0/bits/stl_pair.h \
-  /usr/include/c++/13.2.0/bits/stl_uninitialized.h \
-  /usr/include/c++/13.2.0/bits/stl_vector.h \
   /usr/include/c++/13.2.0/bits/streambuf.tcc \
   /usr/include/c++/13.2.0/bits/streambuf_iterator.h \
   /usr/include/c++/13.2.0/bits/string_view.tcc \
@@ -264,7 +261,6 @@ CMakeFiles/MPointer.dir/MPointerGC.cpp.o: /home/skg/Documents/GitHub/CE2103-P1-M
   /usr/include/c++/13.2.0/bits/uses_allocator.h \
   /usr/include/c++/13.2.0/bits/uses_allocator_args.h \
   /usr/include/c++/13.2.0/bits/utility.h \
-  /usr/include/c++/13.2.0/bits/vector.tcc \
   /usr/include/c++/13.2.0/cctype \
   /usr/include/c++/13.2.0/cerrno \
   /usr/include/c++/13.2.0/clocale \
@@ -302,7 +298,6 @@ CMakeFiles/MPointer.dir/MPointerGC.cpp.o: /home/skg/Documents/GitHub/CE2103-P1-M
   /usr/include/c++/13.2.0/tuple \
   /usr/include/c++/13.2.0/type_traits \
   /usr/include/c++/13.2.0/typeinfo \
-  /usr/include/c++/13.2.0/vector \
   /usr/include/c++/13.2.0/x86_64-unknown-linux-gnu/bits/atomic_word.h \
   /usr/include/c++/13.2.0/x86_64-unknown-linux-gnu/bits/c++allocator.h \
   /usr/include/c++/13.2.0/x86_64-unknown-linux-gnu/bits/c++config.h \
@@ -412,13 +407,7 @@ CMakeFiles/MPointer.dir/MPointerGC.cpp.o: /home/skg/Documents/GitHub/CE2103-P1-M
 
 /usr/include/c++/13.2.0/cstdint:
 
-/usr/include/c++/13.2.0/bits/vector.tcc:
-
 /usr/include/c++/13.2.0/bits/unique_lock.h:
-
-/usr/include/c++/13.2.0/bits/stl_uninitialized.h:
-
-/usr/include/c++/13.2.0/bits/stl_bvector.h:
 
 /usr/include/c++/13.2.0/bits/std_mutex.h:
 
@@ -427,8 +416,6 @@ CMakeFiles/MPointer.dir/MPointerGC.cpp.o: /home/skg/Documents/GitHub/CE2103-P1-M
 /usr/include/c++/13.2.0/bits/chrono.h:
 
 /home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer/MPointerGC.h:
-
-/home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer/Lista.h:
 
 /home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer/DataStructures/Node.cpp:
 
@@ -489,8 +476,6 @@ CMakeFiles/MPointer.dir/MPointerGC.cpp.o: /home/skg/Documents/GitHub/CE2103-P1-M
 /usr/include/asm-generic/errno.h:
 
 /usr/include/c++/13.2.0/bits/streambuf.tcc:
-
-/home/skg/Documents/GitHub/CE2103-P1-MPointer/MPointer/Nodo.h:
 
 /usr/include/sched.h:
 
@@ -580,8 +565,6 @@ CMakeFiles/MPointer.dir/MPointerGC.cpp.o: /home/skg/Documents/GitHub/CE2103-P1-M
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
-/usr/include/c++/13.2.0/bits/stl_vector.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
@@ -619,8 +602,6 @@ CMakeFiles/MPointer.dir/MPointerGC.cpp.o: /home/skg/Documents/GitHub/CE2103-P1-M
 /usr/include/c++/13.2.0/bits/functexcept.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/c++/13.2.0/vector:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 

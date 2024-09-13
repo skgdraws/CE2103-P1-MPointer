@@ -1,19 +1,22 @@
 #include "Node.h"
 
 Node::Node(int ID){
-
     this -> ID = ID;
     this -> next = nullptr;
 }
 
-int Node::get_ID(){
+int Node::getID(){
     return ID;
 }
 
-int Node::get_instances() {
+int Node::addInstance() {
+    instances++;
     return instances;
 }
-
-void Node::set_instances(int data) {
-    instances = data;
+int Node::removeInstance() {
+    instances--;
+    return instances;
+}
+int Node::getInstances() {
+    return instances;
 }

@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/Test.dir/main.cpp.o -o Test  /home/skg/Documents/GitHub/CE2103-P1-MPointer/Test/../MPointer/cmake-build-debug/libMPointer.a
+/usr/bin/c++ -g CMakeFiles/Test.dir/main.cpp.o CMakeFiles/Test.dir/Sorter.cpp.o CMakeFiles/Test.dir/LinkedList.cpp.o -o Test  /home/skg/Documents/GitHub/CE2103-P1-MPointer/Test/../MPointer/cmake-build-debug/libMPointer.a

@@ -129,6 +129,54 @@ Test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/build
 .PHONY : Test/fast
 
+LinkedList.o: LinkedList.cpp.o
+.PHONY : LinkedList.o
+
+# target to build an object file
+LinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/LinkedList.cpp.o
+.PHONY : LinkedList.cpp.o
+
+LinkedList.i: LinkedList.cpp.i
+.PHONY : LinkedList.i
+
+# target to preprocess a source file
+LinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/LinkedList.cpp.i
+.PHONY : LinkedList.cpp.i
+
+LinkedList.s: LinkedList.cpp.s
+.PHONY : LinkedList.s
+
+# target to generate assembly for a file
+LinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/LinkedList.cpp.s
+.PHONY : LinkedList.cpp.s
+
+Sorter.o: Sorter.cpp.o
+.PHONY : Sorter.o
+
+# target to build an object file
+Sorter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Sorter.cpp.o
+.PHONY : Sorter.cpp.o
+
+Sorter.i: Sorter.cpp.i
+.PHONY : Sorter.i
+
+# target to preprocess a source file
+Sorter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Sorter.cpp.i
+.PHONY : Sorter.cpp.i
+
+Sorter.s: Sorter.cpp.s
+.PHONY : Sorter.s
+
+# target to generate assembly for a file
+Sorter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Sorter.cpp.s
+.PHONY : Sorter.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Test"
+	@echo "... LinkedList.o"
+	@echo "... LinkedList.i"
+	@echo "... LinkedList.s"
+	@echo "... Sorter.o"
+	@echo "... Sorter.i"
+	@echo "... Sorter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

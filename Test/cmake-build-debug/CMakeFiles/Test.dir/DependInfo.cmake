@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/skg/Documents/GitHub/CE2103-P1-MPointer/Test/LinkedList.cpp" "CMakeFiles/Test.dir/LinkedList.cpp.o" "gcc" "CMakeFiles/Test.dir/LinkedList.cpp.o.d"
+  "/home/skg/Documents/GitHub/CE2103-P1-MPointer/Test/Sorter.cpp" "CMakeFiles/Test.dir/Sorter.cpp.o" "gcc" "CMakeFiles/Test.dir/Sorter.cpp.o.d"
   "/home/skg/Documents/GitHub/CE2103-P1-MPointer/Test/main.cpp" "CMakeFiles/Test.dir/main.cpp.o" "gcc" "CMakeFiles/Test.dir/main.cpp.o.d"
   )
 

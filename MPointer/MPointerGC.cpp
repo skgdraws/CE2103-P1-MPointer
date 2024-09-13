@@ -6,16 +6,22 @@ MPointerGC::MPointerGC() {
     // OK THIS THING SHOULD WORK
     printf("In MPointerGC::MPointerGC()\n");
 
+    // Setting the Random Seed
+    std::srand(std::time(nullptr));
+
     // Creating the pointer list
     pointerList = LinkedList();
     printf("Creating LinkedList with pointers...\n");
 
 }
 
+template <class T>
+int MPointerGC::addNewPointer(T* ptr) {
 
-int MPointerGC::add_new_pointer(void* id) {
+    int _id = std::rand() % 100000;
 
-    int _id = 0;
+    // Starting from here we insert the nodes inside the list
+    pointerList.insertNode(_id, ptr);
 
     // Debug Print
     printf("You have added a pointer: " + _id);
@@ -25,8 +31,9 @@ int MPointerGC::add_new_pointer(void* id) {
 }
 
 
+void MPointerGC::increasePointerRef(int id) {
 
-void MPointerGC::increase_pointer_ref(int id) {
+    pointerList.getNode(id)->addInstance();
 
     // Debug Print
     printf("You have added a new reference to pointer: " + id);
@@ -34,8 +41,9 @@ void MPointerGC::increase_pointer_ref(int id) {
 }
 
 
+void MPointerGC::decreasePointerRef(int id) {
 
-void MPointerGC::decrease_pointer_ref(int id) {
+    pointerList.getNode(id)->removeInstance();
 
     // Debug Print
     printf("You have removed a reference to pointer: " + id);
@@ -43,9 +51,8 @@ void MPointerGC::decrease_pointer_ref(int id) {
 }
 
 
-
 void MPointerGC::debug() {
 
     // Printing List
-    printf("Printing list lol\n");
+    pointerList.printList();
 }
